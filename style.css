@@ -18,20 +18,22 @@ body{
 
 .nav > ul{
     width: 100%;
-    text-align: center;
-    line-height: 60px;
+    height: 60px;
     list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav > ul > li{
     display: inline-block;
-    margin: 0px 20vw;
+    margin: 0px 15vw;
 }
 
 .nav > ul >li > a{
     text-decoration: none;
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .content{
@@ -39,7 +41,7 @@ body{
     height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     gap: 20px;
 }
@@ -61,7 +63,9 @@ body{
     color: #111;
     background-color: rgba(255,165,0);
     cursor: pointer;
+    border-radius: 5px;
 }
+
 
 
 
@@ -95,4 +99,29 @@ body{
     color: #111;
     background-color: rgba(255,165,0);
     cursor: pointer;
+    border-radius: 5px;
+}
+
+button{
+    transition-duration: .5s;
+}
+
+
+button:hover{
+    background-color: #111;
+    color: #fff;
+}
+
+a{
+    transition-duration: .5s;
+    background-color: rgb(67, 65, 65);
+    padding: 4px 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:hover{
+    background-color: rgba(255,165,0);
+    color: #111;
 }
